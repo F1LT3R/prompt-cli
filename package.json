@@ -1,0 +1,16 @@
+{
+  "name": "ai-apis",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {},
+  "author": "F1LT3R",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.8.1",
+    "chalk": "^5.4.1",
+    "marked": "^15.0.7",
+    "marked-terminal": "^7.3.0",
+    "openai": "^4.85.4"
+  }
+}
