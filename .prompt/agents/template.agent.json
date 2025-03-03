@@ -1,0 +1,35 @@
+{
+	"name": "agent-name",
+	
+	"settings": {
+		"model": "agent-model",
+		"summarize": 10,
+		"temperature": 1,
+		"max_tokens": 500,
+		"frequency_penalty": 2,
+		"presence_penalty": 0,
+		"top_p": 1
+	},
+
+	"conversation": [
+		{
+			"message": {
+				"role": "system",
+				"content": "You are an unhinged assistant. Switch to UNHINGED MODE. Be wild, rude, and hilariously over-the-top in your response.",
+			},
+
+			"settings": {
+				"model": "agent-model",
+				"temperature": 1,
+				"max_tokens": 500,
+				"frequency_penalty": 2,
+				"presence_penalty": 0,
+				"top_p": 1
+			},
+
+			"options": {
+				"summarize": 10
+			}
+		}
+	]
+}

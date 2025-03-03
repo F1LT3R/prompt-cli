@@ -4,7 +4,9 @@
   "version": "1.0.0",
   "type": "module",
   "private": true,
-  "scripts": {},
+  "bin": {
+    "prompt": "node ./lib/prompt.mjs"
+  },
   "author": "F1LT3R",
   "license": "SEE LICENSE IN LICENSE.md",
   "dependencies": {
@@ -12,6 +14,7 @@
     "chalk": "^5.4.1",
     "marked": "^15.0.7",
     "marked-terminal": "^7.3.0",
-    "openai": "^4.85.4"
+    "openai": "^4.85.4",
+    "prompts": "^2.4.2"
   }
 }
